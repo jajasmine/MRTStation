@@ -10,26 +10,27 @@ import UIKit
 
 class TwoLinesViewController: UIViewController {
 
+    @IBOutlet weak var TwoLines2: UILabel!
+    @IBOutlet weak var TwoLines1: UILabel!
+    @IBOutlet weak var TwoLinesStationName: UILabel!
+    
+    var stationNameGet: String!
+    var lineNameGet1: String!
+    var lineNameGet2: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        self.TwoLines1.text = lineNameGet1
+        self.TwoLines2.text = lineNameGet2
+        self.TwoLinesStationName.text = stationNameGet
+        
+        self.navigationItem.title = stationNameGet
+        self.TwoLines1.backgroundColor = MRTStationJSON().lineColor(lineNameGet1)
+        self.TwoLines2.backgroundColor = MRTStationJSON().lineColor(lineNameGet2)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
-    */
-
 }

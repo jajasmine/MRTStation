@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C20A7471CE260E8005A51B4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C20A7461CE260E8005A51B4 /* SwiftyJSON.framework */; };
+		1C5492401CE25BBC0081246D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1C54923F1CE25BBC0081246D /* Podfile */; settings = {ASSET_TAGS = (); }; };
+		1CCA660E1CE24040007A682C /* MRT.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA660D1CE24040007A682C /* MRT.json */; settings = {ASSET_TAGS = (); }; };
 		1CD86A601CE2337B00655AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD86A5F1CE2337B00655AF0 /* AppDelegate.swift */; };
-		1CD86A621CE2337B00655AF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD86A611CE2337B00655AF0 /* ViewController.swift */; };
 		1CD86A651CE2337B00655AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD86A631CE2337B00655AF0 /* Main.storyboard */; };
 		1CD86A671CE2337B00655AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD86A661CE2337B00655AF0 /* Assets.xcassets */; };
 		1CD86A6A1CE2337B00655AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD86A681CE2337B00655AF0 /* LaunchScreen.storyboard */; };
 		1CD86A751CE2337B00655AF0 /* MRTStationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD86A741CE2337B00655AF0 /* MRTStationTests.swift */; };
 		1CD86A801CE2337B00655AF0 /* MRTStationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD86A7F1CE2337B00655AF0 /* MRTStationUITests.swift */; };
+		1CD86A8E1CE233DA00655AF0 /* MRTListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD86A8D1CE233DA00655AF0 /* MRTListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1CEFF5301CE429D700488E2E /* MRTListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEFF52F1CE429D700488E2E /* MRTListViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		1CEFF5321CEA050900488E2E /* OneLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEFF5311CEA050900488E2E /* OneLineViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1CEFF5341CEA053000488E2E /* TwoLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEFF5331CEA053000488E2E /* TwoLinesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1CF6302F1CE2E80E00FB15C7 /* MRTStationJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6302E1CE2E80E00FB15C7 /* MRTStationJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		A0DEC601E1C9F2A2DEDB67B5 /* Pods_MRTStation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5D08DEB4A9D0F91DEF2E3E /* Pods_MRTStation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C20A7461CE260E8005A51B4 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		1C54923F1CE25BBC0081246D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1CCA660D1CE24040007A682C /* MRT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MRT.json; path = MRTStation/MRT.json; sourceTree = "<group>"; };
 		1CD86A5C1CE2337B00655AF0 /* MRTStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRTStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD86A5F1CE2337B00655AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CD86A611CE2337B00655AF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CD86A641CE2337B00655AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CD86A661CE2337B00655AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CD86A691CE2337B00655AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		1CD86A7B1CE2337B00655AF0 /* MRTStationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRTStationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD86A7F1CE2337B00655AF0 /* MRTStationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRTStationUITests.swift; sourceTree = "<group>"; };
 		1CD86A811CE2337B00655AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD86A8D1CE233DA00655AF0 /* MRTListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTListViewController.swift; sourceTree = "<group>"; };
+		1CE7E1D51CE25D6500D9A25E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		1CE7E1D71CE2606D00D9A25E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		1CEFF52F1CE429D700488E2E /* MRTListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTListViewCell.swift; sourceTree = "<group>"; };
+		1CEFF5311CEA050900488E2E /* OneLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneLineViewController.swift; sourceTree = "<group>"; };
+		1CEFF5331CEA053000488E2E /* TwoLinesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoLinesViewController.swift; sourceTree = "<group>"; };
+		1CF6302E1CE2E80E00FB15C7 /* MRTStationJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTStationJSON.swift; sourceTree = "<group>"; };
+		4F7F857B11684D407565086B /* Pods-MRTStation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRTStation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MRTStation/Pods-MRTStation.debug.xcconfig"; sourceTree = "<group>"; };
+		6C5D08DEB4A9D0F91DEF2E3E /* Pods_MRTStation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRTStation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C56321FDABE3823911F0B7 /* Pods-MRTStation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRTStation.release.xcconfig"; path = "Pods/Target Support Files/Pods-MRTStation/Pods-MRTStation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C20A7471CE260E8005A51B4 /* SwiftyJSON.framework in Frameworks */,
+				A0DEC601E1C9F2A2DEDB67B5 /* Pods_MRTStation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +99,14 @@
 		1CD86A531CE2337B00655AF0 = {
 			isa = PBXGroup;
 			children = (
+				1C54923F1CE25BBC0081246D /* Podfile */,
+				1CCA660D1CE24040007A682C /* MRT.json */,
 				1CD86A5E1CE2337B00655AF0 /* MRTStation */,
 				1CD86A731CE2337B00655AF0 /* MRTStationTests */,
 				1CD86A7E1CE2337B00655AF0 /* MRTStationUITests */,
 				1CD86A5D1CE2337B00655AF0 /* Products */,
+				F420AD827CB52D769BC2F991 /* Pods */,
+				804A7C8F7E56E59D39A01370 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +124,15 @@
 			isa = PBXGroup;
 			children = (
 				1CD86A5F1CE2337B00655AF0 /* AppDelegate.swift */,
-				1CD86A611CE2337B00655AF0 /* ViewController.swift */,
 				1CD86A631CE2337B00655AF0 /* Main.storyboard */,
 				1CD86A661CE2337B00655AF0 /* Assets.xcassets */,
 				1CD86A681CE2337B00655AF0 /* LaunchScreen.storyboard */,
 				1CD86A6B1CE2337B00655AF0 /* Info.plist */,
+				1CD86A8D1CE233DA00655AF0 /* MRTListViewController.swift */,
+				1CF6302E1CE2E80E00FB15C7 /* MRTStationJSON.swift */,
+				1CEFF52F1CE429D700488E2E /* MRTListViewCell.swift */,
+				1CEFF5311CEA050900488E2E /* OneLineViewController.swift */,
+				1CEFF5331CEA053000488E2E /* TwoLinesViewController.swift */,
 			);
 			path = MRTStation;
 			sourceTree = "<group>";
@@ -125,6 +155,26 @@
 			path = MRTStationUITests;
 			sourceTree = "<group>";
 		};
+		804A7C8F7E56E59D39A01370 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C20A7461CE260E8005A51B4 /* SwiftyJSON.framework */,
+				1CE7E1D71CE2606D00D9A25E /* SwiftyJSON.framework */,
+				1CE7E1D51CE25D6500D9A25E /* SwiftyJSON.framework */,
+				6C5D08DEB4A9D0F91DEF2E3E /* Pods_MRTStation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F420AD827CB52D769BC2F991 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F7F857B11684D407565086B /* Pods-MRTStation.debug.xcconfig */,
+				C0C56321FDABE3823911F0B7 /* Pods-MRTStation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CD86A841CE2337B00655AF0 /* Build configuration list for PBXNativeTarget "MRTStation" */;
 			buildPhases = (
+				EB02D71553CD47404AC8FF66 /* 📦 Check Pods Manifest.lock */,
 				1CD86A581CE2337B00655AF0 /* Sources */,
 				1CD86A591CE2337B00655AF0 /* Frameworks */,
 				1CD86A5A1CE2337B00655AF0 /* Resources */,
+				DF30FF096C55BCBBC65EE4BE /* 📦 Embed Pods Frameworks */,
+				5570F33B3B8F2AD445B4476B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,8 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5492401CE25BBC0081246D /* Podfile in Resources */,
 				1CD86A6A1CE2337B00655AF0 /* LaunchScreen.storyboard in Resources */,
 				1CD86A671CE2337B00655AF0 /* Assets.xcassets in Resources */,
+				1CCA660E1CE24040007A682C /* MRT.json in Resources */,
 				1CD86A651CE2337B00655AF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,13 +305,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5570F33B3B8F2AD445B4476B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRTStation/Pods-MRTStation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF30FF096C55BCBBC65EE4BE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRTStation/Pods-MRTStation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB02D71553CD47404AC8FF66 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1CD86A581CE2337B00655AF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD86A621CE2337B00655AF0 /* ViewController.swift in Sources */,
+				1CD86A8E1CE233DA00655AF0 /* MRTListViewController.swift in Sources */,
+				1CEFF5301CE429D700488E2E /* MRTListViewCell.swift in Sources */,
+				1CF6302F1CE2E80E00FB15C7 /* MRTStationJSON.swift in Sources */,
+				1CEFF5341CEA053000488E2E /* TwoLinesViewController.swift in Sources */,
 				1CD86A601CE2337B00655AF0 /* AppDelegate.swift in Sources */,
+				1CEFF5321CEA050900488E2E /* OneLineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +503,13 @@
 		};
 		1CD86A851CE2337B00655AF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7F857B11684D407565086B /* Pods-MRTStation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+				);
 				INFOPLIST_FILE = MRTStation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.edu.nccu.MRTStation;
@@ -407,8 +519,13 @@
 		};
 		1CD86A861CE2337B00655AF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C56321FDABE3823911F0B7 /* Pods-MRTStation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+				);
 				INFOPLIST_FILE = MRTStation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.edu.nccu.MRTStation;
@@ -483,6 +600,7 @@
 				1CD86A861CE2337B00655AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CD86A871CE2337B00655AF0 /* Build configuration list for PBXNativeTarget "MRTStationTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +609,7 @@
 				1CD86A891CE2337B00655AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CD86A8A1CE2337B00655AF0 /* Build configuration list for PBXNativeTarget "MRTStationUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +618,7 @@
 				1CD86A8C1CE2337B00655AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

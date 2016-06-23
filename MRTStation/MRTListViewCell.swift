@@ -9,7 +9,11 @@
 import UIKit
 
 class MRTListViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var MRTStationName: UILabel!
+    @IBOutlet weak var LineCode1: UILabel!
+    @IBOutlet weak var LineCode2: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
